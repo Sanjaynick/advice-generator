@@ -1,0 +1,24 @@
+{
+    "advice":[
+  { "id": 1, "advice": "Stay curious and keep learning." },
+  { "id": 2, "advice": "Consistency beats intensity." },
+  { "id": 3, "advice": "Don’t be afraid to ask questions." },
+  { "id": 4, "advice": "Break big tasks into smaller steps." },
+  { "id": 5, "advice": "Listen more than you speak." },
+  { "id": 6, "advice": "Take breaks to avoid burnout." },
+  { "id": 7, "advice": "Celebrate small wins." },
+  { "id": 8, "advice": "Focus on progress, not perfection." },
+  { "id": 9, "advice": "Read every day." },
+  { "id": 10, "advice": "Practice gratitude regularly." },
+  { "id": 11, "advice": "Keep your goals visible." },
+  { "id": 12, "advice": "Learn from failure." },
+  { "id": 13, "advice": "Stay organized." },
+  { "id": 14, "advice": "Surround yourself with positive people." },
+  { "id": 15, "advice": "Prioritize sleep and health." },
+  { "id": 16, "advice": "Plan your day the night before." },
+  { "id": 17, "advice": "Trust the process." },
+  { "id": 18, "advice": "Be kind to yourself and others." },
+  { "id": 19, "advice": "Always back up your data." },
+  { "id": 20, "advice": "Be open to feedback." }
+    ]
+}

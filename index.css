@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Karla:ital,wght@0,200..800;1,200..800&family=Libre+Franklin:ital@0;1&family=Manrope:wght@200..800&family=Poppins&display=swap" rel="stylesheet');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Manrope", sans-serif;
+}
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: #313A49;
+    width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.container p{
+    color: hsl(150, 100%, 66%);
+    margin: 10px 0;
+    font-size: 15px;
+        text-align: center;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+.container h2{
+    color: white;
+        text-align: center;
+    margin: 10px 0;
+}
+.container img{
+    width: 370px;
+    margin: 10px 0;
+}
+.dice-img{
+    background-color: hsl(150, 100%, 66%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    right: 260px;
+    cursor: pointer;
+}
+.dice-img img{
+    width: 20px;
+}
+.dice-img:hover{
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 500px){
+    section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: #313A49;
+    width: 350px;
+    padding: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.container p{
+    color: hsl(150, 100%, 66%);
+    margin: 10px 0;
+    font-size: 15px;
+        text-align: center;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+.container h2{
+    color: white;
+        text-align: center;
+    margin: 10px 0;
+}
+.container img{
+    width: 290px;
+    margin: 10px 0;
+}
+.dice-img{
+    background-color: hsl(150, 100%, 66%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    right: 190px;
+    cursor: pointer;
+}
+.dice-img img{
+    width: 20px;
+}
+.dice-img:hover{
+    box-shadow: 0 0 10px hsl(150, 100%, 66%), 0 0 20px hsl(150, 100%, 66%), 0 0 40px hsl(150, 100%, 66%);
+}
+}
