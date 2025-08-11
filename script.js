@@ -2,7 +2,7 @@ let button = document.querySelector('.dice-img')
 let showAdvice = document.querySelector('.show-advice')
 let adviceId = document.querySelector('.advice-id')
 
-fetch('http://localhost:3000/advice')
+fetch('https://raw.githubusercontent.com/Sanjaynick/advice-generator/refs/heads/main/advice.json')
 .then(res => res.json())
 .then(data => {
    function generateRandom(){
